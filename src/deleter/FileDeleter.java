@@ -101,7 +101,7 @@ public class FileDeleter {
 
 		final String path = windows
 				? System.getenv("USERPROFILE") + File.separator + "OSBuddy" + File.separator + "jagexcache"
-				: System.getProperty("user.home") + File.separator + "osbuddy" + File.separator + "jagexcache";
+				: System.getProperty("user.home") + File.separator + ".osbuddy" + File.separator + "jagexcache";
 		
 		final File file = new File(path);
 		
